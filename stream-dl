@@ -1,0 +1,2 @@
+#!/bin/bash -eu
+ffmpeg -copytb 1 -i ${1} -c copy "$(date +"%Y-%m-%d %H-%M-%S").mp4"
